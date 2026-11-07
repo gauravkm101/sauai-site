@@ -32,6 +32,16 @@
 .guide:hover{border-color:var(--primary);}
 .guide b{display:block; color:var(--text); font-size:15.5px; margin-bottom:4px;}
 .guide span{color:var(--text2); font-size:13.5px; line-height:1.5;}
+.game{margin-top:44px; padding:22px 20px;}
+.game-kicker{margin:0; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--secondary);}
+.game h2{margin:6px 0 10px; font-size:22px; font-weight:800;}
+.game-badge{display:inline-block; padding:5px 12px; border-radius:999px; font-size:12.5px; font-weight:700;
+  color:var(--text); background:rgba(124,92,255,.18); border:1px solid var(--primary);}
+.game-pitch{color:var(--text); font-weight:700; margin:14px 0;}
+.game img{display:block; width:100%; height:auto; border-radius:12px; border:1px solid var(--stroke);}
+.game ul{margin:16px 0;}
+.game-shots{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:16px 0;}
+.game-legal{font-size:13px; margin:0;}
 </style>
 <script src="/app-banner.js" defer></script>
 </head>
@@ -74,6 +84,32 @@
   <p style="margin:0 0 10px"><strong>Made for India, not translated for it.</strong></p>
   <p style="margin:0">Shaadi biodata in the format families actually expect. Sarkari applications in the right structure. Rashi-based baby names. Rangoli and mehndi designs for the festival you are actually celebrating.</p>
 </div>
+
+<section class="card game" id="game" aria-labelledby="game-title">
+  <p class="game-kicker">🎮 From SauAI Labs: hamara pehla game</p>
+  <h2 id="game-title">Zombie Squad: Survival War</h2>
+  <span class="game-badge">Coming soon on Google Play</span>
+  <!-- At launch, add the Play button here:
+  <a class="cta" href="https://play.google.com/store/apps/details?id=com.zfrontline.zombiesquad">Get it on Google Play</a>
+  -->
+  <p class="game-pitch">Zombie survival war! Build a squad army, run the gates and shoot the horde.</p>
+  <img src="zombie-squad/feature.jpg" width="1024" height="500" loading="lazy"
+       alt="Zombie Squad: Survival War — a soldier squad on a highway facing a zombie horde">
+  <ul>
+    <li>Road pe daudo, gates chuno (+5, ×2) aur squad ko 1 soldier se hundreds tak badhao.</li>
+    <li>60 operations, 12 worlds, aur giant bosses — Patient Zero bhi.</li>
+    <li>9 leader weapons (bows bhi) aur 12 heroes recruit karne ke liye.</li>
+    <li>4 unit types: riflemen, gunners, snipers, rocket troops.</li>
+    <li>Offline bhi chalta hai.</li>
+    <li>Google Play Games sign-in aur cloud save.</li>
+  </ul>
+  <div class="game-shots">
+    <img src="zombie-squad/shot-2.jpg" width="360" height="640" loading="lazy" alt="Gameplay: running through a ×2 gate to double the squad">
+    <img src="zombie-squad/shot-7.jpg" width="360" height="640" loading="lazy" alt="Four of the game's 12 worlds">
+    <img src="zombie-squad/shot-8.jpg" width="360" height="640" loading="lazy" alt="Patient Zero, the final boss">
+  </div>
+  <p class="game-legal"><a href="zombie-squad/privacy.html">Zombie Squad privacy policy</a></p>
+</section>
 
 <div class="footer" style="text-align:center;">
 <a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="delete-account.html">Delete Account</a>
